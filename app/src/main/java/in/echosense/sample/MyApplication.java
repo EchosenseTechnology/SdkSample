@@ -13,7 +13,7 @@ public class MyApplication extends Application {
 
         EchoSdk.Initialize()
                 .with(getApplicationContext())
-                .setApiKey("NncAsizFxqjHwc0zLs8=")
+                .setApiKey("ECHOSENSE PROVIDED KEY")
                 .setApplication(this)
                 .start();
 
