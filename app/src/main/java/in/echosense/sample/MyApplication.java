@@ -17,10 +17,5 @@ public class MyApplication extends Application {
                 .setApplication(this)
                 .start();
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            Intent reqPerm = new Intent(this, AppPermissions.class);
-            reqPerm.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(reqPerm);
-        }
     }
 }

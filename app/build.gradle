@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion "26.0.2"
+    compileSdkVersion 29
+    buildToolsVersion "26.0.3"
     defaultConfig {
         applicationId "in.echosense.sample"
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -29,8 +29,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'in.echosense:echosdk:2.2.7@aar'
-    implementation 'in.echosense:adUnit:1.4.5@aar'
+    implementation 'in.echosense:echosdk:3.0.1@aar'
+    implementation 'in.echosense:adUnit:2.0.1@aar'
 
     // Google Play services dependencies
     implementation 'com.google.android.gms:play-services-ads:16.0.0'
