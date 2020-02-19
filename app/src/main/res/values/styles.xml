@@ -1,3 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /*
+  ~   ******************************************************
+  ~   * Copyright (C) Echosense Technologies <contact@echosense.in> - All Rights Reserved
+  ~   * Unauthorized copying of this file, via any medium is strictly prohibited
+  ~   * Proprietary and confidential
+  ~   * Contact Echosense Technologies <contact@echosense.in> for any queries.
+  ~   ******************************************************
+  ~   * Purpose:  Receiver for boot complete event            
+  ~   *                                                         
+  ~   * Overview:                                                  
+  ~   *      This class will start the SDK services at boot completion   
+  ~   *       
+  ~   * Usage:   {If any}                                               
+  ~   *                
+  ~   ********************************************************/
+  ~
+  -->
+
 <resources>
 
     <!-- Base application theme. -->
@@ -8,4 +27,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

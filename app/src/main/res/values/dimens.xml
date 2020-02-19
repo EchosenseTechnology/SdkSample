@@ -19,6 +19,5 @@
   -->
 
 <resources>
-    <string name="app_name">Sample</string>
-    <string name="action_settings">Settings</string>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>
